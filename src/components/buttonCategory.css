@@ -1,0 +1,8 @@
+.btn-category {
+  height: 50px;
+  padding: 10px;
+}
+
+.btn-category:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+.header nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.header .logo {
+  text-decoration: none;
+  color: black;
+}
+
+.header .frontend {
+  color: #07acda;
+}
+
+.header input {
+  background-color: rgba(128, 128, 128, 0.473);
+  border-radius: 5px;
+  padding: 3px 10px;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+}
+
+.header .cartIcon {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.header .cartIcon p {
+  margin: 0px;
+}
+
