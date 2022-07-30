@@ -1,8 +1,13 @@
 .btn-category {
   height: 50px;
   padding: 10px;
+  background-color: #61dafb;
+  border: transparent;
+  border-bottom: 0.1px solid black;
+  transition-duration: 0.2s;
 }
 
 .btn-category:hover {
   cursor: pointer;
+  background-color: white;
 }
